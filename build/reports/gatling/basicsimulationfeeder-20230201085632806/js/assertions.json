@@ -1,0 +1,10 @@
+{
+  "simulation": "BasicSimulationFeeder",
+  "simulationId": "basicsimulationfeeder",
+  "start": 1675241792806,
+  "description": "",
+  "scenarios": ["BasicSimulation"],
+  "assertions": [
+
+  ]
+}

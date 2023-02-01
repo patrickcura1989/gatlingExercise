@@ -1,0 +1,41 @@
+16:56:34.706 [TRACE] i.g.h.e.r.DefaultStatsProcessor - 
+>>>>>>>>>>>>>>>>>>>>>>>>>>
+Request:
+Post Details: OK 
+=========================
+Session:
+Session(BasicSimulation,1,Map(gatling.http.ssl.sslContexts -> io.gatling.http.util.SslContexts@45962b57, gatling.http.cache.dns -> io.gatling.http.resolver.ShufflingNameResolver@59ad5346, input -> in1, gatling.http.cache.contentCache -> io.gatling.core.util.cache.Cache@22955bc1),OK,List(),io.gatling.core.protocol.ProtocolComponentsRegistry$$Lambda$555/0x00000001005f5840@21f66c13,io.netty.channel.nio.NioEventLoop@e8fadb0)
+=========================
+HTTP request:
+POST https://reqres.in/api/users
+headers:
+	accept: application/json
+	host: reqres.in
+	content-type: application/json
+	content-length: 41
+body:StringRequestBody{contentType='application/json', charset=UTF-8, content={
+  "name": "in1",
+  "job": "leader"
+}}
+=========================
+HTTP response:
+status:
+	201 Created
+headers:
+	Date: Wed, 01 Feb 2023 08:56:34 GMT
+	Content-Type: application/json; charset=utf-8
+	Connection: keep-alive
+	X-Powered-By: Express
+	Access-Control-Allow-Origin: *
+	Etag: W/"4f-0s+KIKXDbOLvHypt2csLn3DRA5E"
+	Via: 1.1 vegur
+	CF-Cache-Status: DYNAMIC
+	Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=WcZMsXHoZWZKAsnRUmAaL4YODegnU0oBmrn8M1XIuWvo4cGQIorTM3u57iy3iOg37hGnJoX1lxUSLJFAGaVZXcxuNfCeQa2X6iTJe1Ph7IJhJs4I6zK6N7IgLw%3D%3D"}],"group":"cf-nel","max_age":604800}
+	NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+	Server: cloudflare
+	CF-RAY: 7929797d8c8fb9f3-MNL
+	content-length: 79
+
+body:
+{"name":"in1","job":"leader","id":"139","createdAt":"2023-02-01T08:56:34.575Z"}
+<<<<<<<<<<<<<<<<<<<<<<<<<
